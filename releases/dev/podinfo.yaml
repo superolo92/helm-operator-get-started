@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:master-unts5g7o
+    image: olovisani/podinfo:dev-z6jvlqi5
     replicaCount: 1
     hpa:
       enabled: false
